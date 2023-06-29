@@ -11,7 +11,7 @@ public class Bird extends Animal {
 
     }
 
-    private String getBirdDescription(){
+    private String getBirdDescription() {
         return " Moreover, it has 2 wings and can fly.";
     }
 }

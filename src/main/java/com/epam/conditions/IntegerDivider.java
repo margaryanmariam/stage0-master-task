@@ -5,12 +5,12 @@ public class IntegerDivider {
         int result = 1;
         try {
             result = dividend / divider;
-            if (result*divider==dividend){
+            if (result * divider == dividend) {
                 System.out.println("can be divided completely");
-            }else {
-                System.out.println( "cannot be divided completely");
+            } else {
+                System.out.println("cannot be divided completely");
             }
-        }catch (ArithmeticException e){
+        } catch (ArithmeticException e) {
             System.out.println("division by zero");
         }
     }

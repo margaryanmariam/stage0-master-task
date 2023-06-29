@@ -3,7 +3,7 @@ package com.epam.conditions;
 public class SeasonDeterminer {
     public void tellTheSeason(int monthNumber) {
 
-        switch (monthNumber){
+        switch (monthNumber) {
             case 12:
             case 1:
             case 2:
