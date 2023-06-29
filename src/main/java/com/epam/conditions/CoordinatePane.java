@@ -6,7 +6,7 @@ public class CoordinatePane {
             System.out.println("zero");
         }else if(x>0) {
             if (y < 0) {
-                System.out.println("second");
+                System.out.println("fourth");
             } else {
                 System.out.println("first");
             }
@@ -14,7 +14,7 @@ public class CoordinatePane {
             if(y<0){
                 System.out.println("third");
             }else {
-                System.out.println("fourth");
+                System.out.println("second");
             }
         }
     }
